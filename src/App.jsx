@@ -8,8 +8,8 @@ const App = () => {
   return (
     <div className='text-white'>
       <Link className='text-blue-500 text-small' to='/'>Home</Link>
-      <Link className='text-blue-500 text-small' to='/agence'>Agence</Link>
-      <Link className='text-blue-500 text-small' to='/projects'>Projects</Link>
+      <Link className='text-blue-500 text-small' to='/agence'>Profile</Link>
+      <Link className='text-blue-500 text-small' to='/projects'>Catalog</Link>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/agence' element={<Agence />} />
