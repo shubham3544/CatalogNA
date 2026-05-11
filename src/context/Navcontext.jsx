@@ -6,11 +6,11 @@ export const Navbarcontext = createContext()
 
 const Navcontext = ({ children }) => {
 
-    const [Navopen, setNavopen] = useState(false)
+    const [navopen, setNavopen] = useState(false)
 
     return (
         <div>
-            <Navbarcontext.Provider value={[Navopen, setNavopen]}>
+            <Navbarcontext.Provider value={[navopen, setNavopen]}>
                 {children}
             </Navbarcontext.Provider>
         </div>
