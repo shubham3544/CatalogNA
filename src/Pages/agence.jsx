@@ -66,7 +66,7 @@ const Agence = () => {
   return (
     <div>
 
-      <div className='section1'>
+      <div className=' bg-[#F5F1EA] text-blacksection1'>
 
         {/* Image */}
         <div
@@ -82,9 +82,9 @@ const Agence = () => {
         </div>
 
         {/* Text */}
-        <div className='relative font-[font2]'>
+        <div className='relative font-[font2] '>
 
-          <div className='mt-[45vh]'>
+          <div className='mt-[45vh] '>
             <h1 className='text-[17vw] text-center uppercase leading-[17vw]'>
               NAMDHARI FASHIONS
             </h1>

@@ -11,7 +11,7 @@ const App = () => {
 
   
   return (
-    <div className='text-white'>
+    <div className='text-black bg-[#F5F1EA]'>
       
       
       
